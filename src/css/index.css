@@ -20,3 +20,13 @@ body {
 .red {
   color: red;
 }
+
+.hidez-child .zchild {
+  visibility: hidden;
+  transition: visibility .15s ease-in;
+}
+
+.hidez-child:hover .zchild {
+  visibility: visible;
+  transition: visibility .15s ease-in;
+}

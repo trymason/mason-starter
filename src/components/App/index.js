@@ -19,7 +19,7 @@ const { mason, routes } = config;
 export default class App extends Component {
   componentDidMount() {
     Mason({
-      apiKey:'7Hhqk1LFB44AMi7FlovRlJFeOP/1Hm8fUbrqhlrSklw=',
+      apiKey:'YZfS7jWG2fu+/gDYRewnBBPa4G/HEyhb4ye6fNhcpyM=',
       componentIds: _.map(mason),
     });
   }

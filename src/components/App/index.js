@@ -10,9 +10,7 @@ import Mason from 'mason-library';
 import config from './config';
 
 import Home from '../Home';
-import Login from '../Login';
-import Register from '../Register';
-import Search from '../Search';
+
 import '../../css/index.css';
 const { mason, routes } = config;
 
@@ -28,9 +26,6 @@ export default class App extends Component {
     return <Router>
       <Switch>
         <Route exact path={routes.home} component={Home} />
-        <Route exact path={routes.login} component={Login} />
-        <Route exact path={routes.register} component={Register} />
-        <Route exact path={routes.search} component={Search} />
         <Route render={() => <Redirect to="/" />} />
       </Switch>
     </Router>
